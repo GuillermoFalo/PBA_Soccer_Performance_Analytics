@@ -183,21 +183,23 @@ PBA_Soccer_Performance_Analytics/
 │
 ├── data/
 │   ├── sample_player_data.csv              # Mock dataset for End-of-Season dashboard
-│   └── sample_team_vs_player.csv           # Mock dataset for Team vs Player dashboard
+│   ├── sample_team_vs_player.csv           # Mock dataset for Team vs Player dashboard
+│   └── sample_hudl_analysis.csv            # Mock dataset for HUDL Match Analysis dashboard
 │
 ├── docs/
-│   ├── summary_end_of_season.pdf           # Optional supporting document
+│   ├── summary_end_of_season.pdf           # Optional supporting report
 │   └── screenshots/
 │       ├── End_of_the_season_Dashboard.jpg # Snapshot of End-of-Season dashboard
-│       └── Team_vs_Player.jpg              # Snapshot of Team vs Player dashboard
+│       ├── Team_vs_Player.jpg              # Snapshot of Team vs Player dashboard
+│       └── HUDL_Analysis.jpg               # Snapshot of HUDL Match Analysis dashboard
 │
 ├── etl/
-│   ├── power_query_notes.md                # ETL notes for End-of-Season dashboard
-│   └── power_query_team_vs_player.md       # ETL documentation for Team vs Player
+│   ├── power_query_notes.md                # ETL documentation for End-of-Season dashboard
+│   ├── power_query_team_vs_player.md       # ETL documentation for Team vs Player dashboard
+│   └── power_query_hudl_analysis.md        # ETL documentation for HUDL Match Analysis dashboard
 │
 ├── .gitignore
 └── README.md
-
 
 ---
 
