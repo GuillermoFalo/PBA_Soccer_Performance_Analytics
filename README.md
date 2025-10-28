@@ -1,5 +1,6 @@
 # PBA_Soccer_Performance_Analytics
-Data-driven performance analytics for PBA Men’s Soccer — integrating GPS, match, and training data through Power Query and Tableau dashboards.
+Data-driven performance analytics for PBA Men’s Soccer — integrating GPS (StatsSports), training, and tactical (HUDL) data through Power Query and Tableau dashboards.
+Includes three key projects: End-of-Season Player Report, Team vs Player (Training), and HUDL Tactical Match Analysis.
 
 # End-of-Season Player Dashboard
 
