@@ -137,6 +137,45 @@ It’s not linked to official match data or statistics.
 - **GitHub** – documentation and version tracking
 
 ---
+---
+
+## HUDL Match Analysis Dashboard
+
+![HUDL Analysis Dashboard](docs/screenshots/HUDL_Analysis.jpg)
+
+**Live dashboard:** [View on Tableau Public](https://public.tableau.com/app/profile/guillermo.falo4400/vizzes)
+
+### 🧠 Overview
+This dashboard focuses on the **tactical and possession aspects of the game**, using match data extracted from **HUDL**.  
+It visualizes team behavior in and out of possession — showing how the team builds, circulates, and finishes plays across different thirds of the field.
+
+### ⚙️ Data Workflow (Excel Power Query + Tableau)
+- Match data exported from **HUDL event reports** (CSV format).  
+- Cleaned and structured in **Excel Power Query** to separate possession strings, pass outcomes, and field zones.  
+- Loaded into Tableau to visualize:
+  - Team possession share  
+  - Pass success rates by field zone and time interval  
+  - Possession strings grouped by number of passes (short vs long possessions)
+
+### 📊 Tactical Metrics
+- **Possession %** (team comparison)  
+- **Successful passes** by time segment (0–15, 16–30, etc.)  
+- **Pass success rate** by thirds (Defensive, Middle, Attacking)  
+- **Possession string length** (1–2 passes, 3–5 passes, 6+)  
+- **Goals and final result** summary  
+
+### 🎯 Purpose
+To provide the **coaching staff and players** with visual insights into the team’s playing identity —  
+whether the team keeps control, builds through short or long sequences, and how effective each third is in maintaining possession.  
+It complements physical data dashboards by bringing a **tactical layer** into the overall analysis ecosystem.
+
+### 🧩 Tech Stack
+- **HUDL (CSV exports)** – match data source  
+- **Excel (Power Query)** – data cleaning and structure  
+- **Tableau** – tactical and match visualization  
+- **GitHub** – documentation and version tracking  
+
+---
 
 ## 📂 Repository Structure
 
