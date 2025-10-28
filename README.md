@@ -98,6 +98,47 @@ By documenting everything publicly, the intent is to share a **transparent proce
 
 ---
 
+## Team vs Player Dashboard (Training Only)
+
+![Team vs Player Dashboard](docs/screenshots/Teams_vs_Player.jpg)
+
+**Live dashboard:** [View on Tableau Public](https://public.tableau.com/app/profile/guillermo.falo4400/vizzes)
+
+### 🧠 Overview
+This dashboard focuses **exclusively on training sessions**, not matches.  
+It uses **STATSports GPS exports** to analyze each player’s performance during practices.  
+The main goal is to let the **PBA coaching staff** compare individual players to team averages for any session, and track each player’s consistency across the season.
+
+### ⚙️ Data Workflow (Excel Power Query)
+- Load all STATSports CSVs (one per session) through Power Query.  
+- Clean and standardize data (column names, units, player names, jersey numbers).  
+- Split `Session Name` into `Session_No` and `Session_Name`.  
+- Export the cleaned dataset as a single table to Tableau (`fact_session_metrics`).  
+- Team averages are calculated directly in Tableau using table calculations or LOD expressions.
+
+### 📊 Metrics
+- **Total Distance (mi)**  
+- **High-Intensity Distance (HID, yd)**  
+- **High-Speed Running (HSR, yd)**  
+- **Accelerations / Decelerations**  
+- **Sprints**  
+- **Max Speed (mph)**  
+- **Impacts**
+
+### 🎯 Purpose (Internal)
+This dashboard is **for internal use only** by the PBA Men’s Soccer coaching staff.  
+It helps monitor **training load, intensity, and player readiness**, supporting better workload management and recovery planning.  
+It’s not linked to official match data or statistics.
+
+### 🧩 Tech Stack
+- **Excel (Power Query)** – data ingestion and transformation  
+- **Tableau** – dashboard design and visualization  
+- **GitHub** – documentation and version tracking
+
+---
+
+---
+
 ## 📂 Repository Structure
 PBA_Soccer_Performance_Analytics/
 │
