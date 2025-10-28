@@ -100,7 +100,7 @@ By documenting everything publicly, the intent is to share a **transparent proce
 
 ## Team vs Player Dashboard (Training Only)
 
-![Team vs Player Dashboard](docs/screenshots/Teams_vs_Player.jpg)
+![Team vs Player Dashboard](docs/screenshots/Team_vs_Player.jpg)
 
 **Live dashboard:** [View on Tableau Public](https://public.tableau.com/app/profile/guillermo.falo4400/vizzes)
 
