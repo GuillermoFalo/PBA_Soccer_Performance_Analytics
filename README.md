@@ -1,7 +1,13 @@
 # PBA_Soccer_Performance_Analytics
-Data-driven performance analytics for PBA Men’s Soccer — integrating GPS (StatsSports), training, and tactical (HUDL) data through Power Query and Tableau dashboards.
-Includes three key projects: End-of-Season Player Report, Team vs Player (Training), and HUDL Tactical Match Analysis.
 
+### Overview
+This repository brings together multiple Tableau dashboards created for the Palm Beach Atlantic University Men’s Soccer Program.  
+Each dashboard focuses on a different layer of performance:  
+- **End-of-Season Report:** player summary and season KPIs  
+- **Team vs Player (Training):** GPS-based workload and consistency tracking  
+- **HUDL Tactical Analysis:** match behaviors, passing strings, and possession patterns  
+
+Together, they form a complete analytical ecosystem connecting physical, tactical, and contextual insights.
 # End-of-Season Player Dashboard
 
 ![End of Season Dashboard](docs/screenshots/End%20of%20the%20season%20Dashboard.jpg)
