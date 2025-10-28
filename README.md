@@ -138,27 +138,27 @@ It’s not linked to official match data or statistics.
 
 ---
 
----
-
 ## 📂 Repository Structure
+
 PBA_Soccer_Performance_Analytics/
 │
 ├── data/
-│ └── sample_player_data.csv
+│   ├── sample_player_data.csv              # Mock dataset for End-of-Season dashboard
+│   └── sample_team_vs_player.csv           # Mock dataset for Team vs Player dashboard
 │
 ├── docs/
-│ ├── summary_end_of_season.pdf
-│ └── screenshots/
-│ └── End of the season Dashboard.jpg
+│   ├── summary_end_of_season.pdf           # Optional supporting document
+│   └── screenshots/
+│       ├── End_of_the_season_Dashboard.jpg # Snapshot of End-of-Season dashboard
+│       └── Team_vs_Player.jpg              # Snapshot of Team vs Player dashboard
 │
 ├── etl/
-│ └── power_query_notes.md
+│   ├── power_query_notes.md                # ETL notes for End-of-Season dashboard
+│   └── power_query_team_vs_player.md       # ETL documentation for Team vs Player
 │
 ├── .gitignore
 └── README.md
 
-yaml
-Copy code
 
 ---
 
