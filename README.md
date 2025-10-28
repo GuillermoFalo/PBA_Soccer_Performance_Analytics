@@ -2,7 +2,8 @@
 End-of-season player analytics dashboard integrating StatsSports GPS and PBA stats. Built in Excel + Tableau to provide players with a professional season summary and presentation tool.
 # End-of-Season Player Dashboard
 
-![End of Season – Example (Tin Vastic)](docs/screenshots/End_of_Season_Dashboard.jpg)
+![End of Season Dashboard](docs/screenshots/End%20of%20the%20season%20Dashboard.jpg)
+
 **Live dashboard:** [View on Tableau Public](https://public.tableau.com/app/profile/guillermo.falo4400/vizzes)
 
 ---
