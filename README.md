@@ -86,17 +86,6 @@ This repository uses **mock or anonymized data** for demonstration purposes.
 No real GPS or personal player data has been shared publicly.
 
 ---
-
-## 💬 About This Project
-This repository is part of an ongoing initiative to bring **data-driven analysis** to collegiate soccer.  
-The goal is to connect performance, GPS, and match data to deliver tools that help both players and coaches make informed, actionable decisions.
-
-Future additions will include:
-- **HUDL Match Analysis Dashboard** – tactical and event-based insights  
-- **Player Comparison Dashboard** – GPS benchmarks and position-based trends  
-
-By documenting everything publicly, the intent is to share a **transparent process** that shows how analytics can enhance player development and program growth.
-
 ---
 
 ## Team vs Player Dashboard (Training Only)
@@ -141,7 +130,7 @@ It’s not linked to official match data or statistics.
 
 ## HUDL Match Analysis Dashboard
 
-![HUDL Analysis Dashboard](docs/screenshots/HUDL_Analysis.jpg)
+![HUDL Analysis Dashboard](docs/screenshots/HUDL%20Analysis.jpg)
 
 **Live dashboard:** [View on Tableau Public](https://public.tableau.com/app/profile/guillermo.falo4400/vizzes)
 
