@@ -1,5 +1,6 @@
 # PBA_Soccer_Performance_Analytics
-End-of-season player analytics dashboard integrating StatsSports GPS and PBA stats. Built in Excel + Tableau to provide players with a professional season summary and presentation tool.
+Data-driven performance analytics for PBA Men’s Soccer — integrating GPS, match, and training data through Power Query and Tableau dashboards.
+
 # End-of-Season Player Dashboard
 
 ![End of Season Dashboard](docs/screenshots/End%20of%20the%20season%20Dashboard.jpg)
