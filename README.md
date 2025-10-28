@@ -87,15 +87,38 @@ No real GPS or personal player data has been shared publicly.
 ---
 
 ## 💬 About This Project
-This repository is part of an ongoing initiative to bring **data-driven analysis to collegiate soccer**.  
+This repository is part of an ongoing initiative to bring **data-driven analysis** to collegiate soccer.  
+The goal is to connect performance, GPS, and match data to deliver tools that help both players and coaches make informed, actionable decisions.
+
 Future additions will include:
-- **HUDL Match Analysis Dashboard** – tactical & event-based insights  
+- **HUDL Match Analysis Dashboard** – tactical and event-based insights  
 - **Player Comparison Dashboard** – GPS benchmarks and position-based trends  
+
+By documenting everything publicly, the intent is to share a **transparent process** that shows how analytics can enhance player development and program growth.
+
+---
+
+## 📂 Repository Structure
+PBA_Soccer_Performance_Analytics/
+│
+├── data/
+│ └── sample_player_data.csv
+│
+├── docs/
+│ ├── summary_end_of_season.pdf
+│ └── screenshots/
+│ └── End of the season Dashboard.jpg
+│
+├── etl/
+│ └── power_query_notes.md
+│
+├── .gitignore
+└── README.md
+
+yaml
+Copy code
 
 ---
 
 *Author: Guillermo Falo*  
 *PBA Men’s Soccer Program – Performance & Data Analysis*
-
-## 📂 Repository Structure
-
